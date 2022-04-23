@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)file:///C:/Users/DELL/Desktop/101website/galley.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>CSS Template</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: powderblue;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body style="background-color:pink;">
+
+<h2 style="background-color: aqua;">My love for photography</h2>
+<p style="background-color: aqua;">Photos are one of the best way to keep memories.<br>
+i don't take my photography for granted i really have passion for it</p>
+
+<div class="header">
+  <h2>Picture Gallery</h2>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;"><img src="images/1.jpg" width="100%" height="100%"></div>
+  <div class="column" style="background-color:#bbb;"><img src="images/2.jpg" width="100%" height="100%"></div>
+  <div class="column" style="background-color:#ccc;"><img src="images/3.jpg" width="100%" height="100%" <="" div="">
+</div>
+
+<div class="footer">
+  <p style="background-color: purple;"><b>if you need a website designer you can always count on me.</b></p>
+</div>
+
+
+</div></body></html>
